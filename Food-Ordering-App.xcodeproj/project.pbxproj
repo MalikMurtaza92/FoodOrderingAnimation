@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24A81D052601F60100C049CF /* CardLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A81D042601F60100C049CF /* CardLayoutViewController.swift */; };
-		24AE5E9025FDECE6001C2D60 /* CustomDesignCollectionviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AE5E8F25FDECE6001C2D60 /* CustomDesignCollectionviewViewController.swift */; };
 		24CA789925FC0A6400C6B292 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA789825FC0A6400C6B292 /* AppDelegate.swift */; };
 		24CA789B25FC0A6400C6B292 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA789A25FC0A6400C6B292 /* SceneDelegate.swift */; };
 		24CA789D25FC0A6400C6B292 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CA789C25FC0A6400C6B292 /* ViewController.swift */; };
@@ -17,12 +15,9 @@
 		24CA78A525FC0A6600C6B292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CA78A325FC0A6600C6B292 /* LaunchScreen.storyboard */; };
 		FA4FF7CE2619E11500E3AAD4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FF7CD2619E11500E3AAD4 /* CustomTabBar.swift */; };
 		FA4FF7DA2619FBD800E3AAD4 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4FF7D92619FBD800E3AAD4 /* CustomTabBarController.swift */; };
-		FAFF63B82619051A00BAC0E9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF63B72619051A00BAC0E9 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24A81D042601F60100C049CF /* CardLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLayoutViewController.swift; sourceTree = "<group>"; };
-		24AE5E8F25FDECE6001C2D60 /* CustomDesignCollectionviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDesignCollectionviewViewController.swift; sourceTree = "<group>"; };
 		24CA789525FC0A6400C6B292 /* Food-Ordering-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food-Ordering-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CA789825FC0A6400C6B292 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24CA789A25FC0A6400C6B292 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +28,6 @@
 		24CA78A625FC0A6600C6B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4FF7CD2619E11500E3AAD4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		FA4FF7D92619FBD800E3AAD4 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
-		FAFF63B72619051A00BAC0E9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +68,6 @@
 				24CA78A125FC0A6600C6B292 /* Assets.xcassets */,
 				24CA78A325FC0A6600C6B292 /* LaunchScreen.storyboard */,
 				24CA78A625FC0A6600C6B292 /* Info.plist */,
-				24AE5E8F25FDECE6001C2D60 /* CustomDesignCollectionviewViewController.swift */,
-				24A81D042601F60100C049CF /* CardLayoutViewController.swift */,
-				FAFF63B72619051A00BAC0E9 /* SecondViewController.swift */,
 			);
 			path = "Food-Ordering-App";
 			sourceTree = "<group>";
@@ -160,11 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAFF63B82619051A00BAC0E9 /* SecondViewController.swift in Sources */,
-				24A81D052601F60100C049CF /* CardLayoutViewController.swift in Sources */,
 				FA4FF7DA2619FBD800E3AAD4 /* CustomTabBarController.swift in Sources */,
 				FA4FF7CE2619E11500E3AAD4 /* CustomTabBar.swift in Sources */,
-				24AE5E9025FDECE6001C2D60 /* CustomDesignCollectionviewViewController.swift in Sources */,
 				24CA789D25FC0A6400C6B292 /* ViewController.swift in Sources */,
 				24CA789925FC0A6400C6B292 /* AppDelegate.swift in Sources */,
 				24CA789B25FC0A6400C6B292 /* SceneDelegate.swift in Sources */,
